@@ -23,7 +23,7 @@ class CNN():
         self.mode = (mode == 'train')
         self.img_source = (img_source == 'camera')
         self.cap = None
-        self.PATH = '/Users/chenyixuan/github/TEST/'
+        self.PATH = ''
         self._ready()
 
     def _ready(self):
