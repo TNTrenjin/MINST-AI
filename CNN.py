@@ -124,6 +124,3 @@ class CNN():
     # 預測
     def predict(self, img):
         print(self.model.predict_classes(img))
-
-
-cnn = CNN(mode='test', img_source='camera')
